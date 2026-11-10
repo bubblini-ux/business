@@ -1,0 +1,22 @@
+# Normalization and line endings
+* text=auto eol=lf
+
+# Documentation
+*.md text diff=markdown
+
+# Configuration files
+*.json text
+*.yml text
+*.yaml text
+*.toml text
+*.env.example text
+
+# Archives and binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
